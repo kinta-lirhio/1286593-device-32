@@ -45,11 +45,15 @@ body {
 a{
   text-decoration: none;
   color: rgba(0, 0, 0, 1);
+
 }
 
-h1,h2,h3,h4{
+h1,h2,h3,h4,h5,h6{
   margin: 0;
+  padding: 0;
+  color: rgba(0, 0, 0, 1);
 }
+
 /*font-family: 'Raleway', sans-serif , 'Rubik', sans-serif;*/
 h1 {
   font-family: 'Raleway', sans-serif;
@@ -63,7 +67,7 @@ h2{
   font-family: 'Raleway', sans-serif;
   font-weight: 800;
   font-style: normal;
-  font-size: 18px;
+  font-size: 20px;
   line-height: 21px;
 }
 
@@ -71,8 +75,9 @@ h3{
   font-family: 'Raleway', sans-serif;
   font-weight: 800;
   font-style: normal;
-  font-size: 20px;
+  font-size: 18px;
   line-height: 23px;
+  text-transform: uppercase;
 }
 
 h4{
@@ -85,10 +90,10 @@ h4{
 
 h5{
   font-family: 'Rubik', sans-serif;
-  font-weight: 700;
+  font-weight: 400;
   font-style: normal;
   font-size: 18px;
-  line-height: 20px;
+  line-height: 30px;
 }
 
 h6{
@@ -103,6 +108,11 @@ p{
   font-family: "Rubik",sans-serif;
   font-size: 16px;
   line-height: 30px;
+}
+
+.button{
+
+
 }
 
 
@@ -179,6 +189,7 @@ p{
   justify-content: space-between;
   width: 100%;
   max-width: 1075px;
+  margin-top: -30px;
 }
 .slaider-image{
   width: 45%
@@ -186,7 +197,7 @@ p{
 .slaider-info{
   width: 50%
 }
-
+/********range*********/
 .range{
   margin: 50px auto;
 }
@@ -220,6 +231,13 @@ p{
   font-size: 18px;
 }
 
+/********delivery*********/
+
+.delivery{
+  height: 388px;
+  background-color: rgba(240, 240, 240, 1);
+}
+
 .delivery-block{
   width: 100%;
   max-width: 1075px;
@@ -245,4 +263,87 @@ p{
   font-size: 20px;
   text-transform: uppercase;
   background-color: rgba(240, 240, 240, 1);
+}
+/********decorative*********/
+.decorative{
+ margin-top: 90px;
+}
+
+/********aboutus*********/
+.aboutus{
+  height: 560px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 97px;
+}
+
+.info{
+  width: 45%;
+}
+
+.info-contact{
+  width: 45%;
+}
+
+/********subscribe*********/
+
+.subscribe{
+  padding-top: 70px;
+  height: 421px;
+  background-color: rgba(240, 240, 240, 1);
+}
+
+.subscribe-inner{
+
+  display: flex;
+  justify-content: space-between;
+}
+.subscribe-title{
+  width: 45%;
+}
+.subscribe-info{
+  width: 50%
+}
+/********subscribe-form*********/
+
+.subscribe-form{
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+
+/********footer*********/
+
+footer, footer a{
+  height: 321px;
+  background-color: rgba(68, 68, 68, 10);
+  color: rgba(255, 255, 255, 1);
+}
+
+.page-footer{
+  padding-top: 72px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.footer-contacts{
+  width: 30%;
+  text-align: left;
+}
+.footer-social-navigation{
+  width: 40%;
+  text-align: center;
+}
+.footer-social-list, .navigation-user{
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-phone{
+  width: 30%;
+  text-align: right;
+}
+.about-text{
+  margin-top: 35px;
 }
