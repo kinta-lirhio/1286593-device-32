@@ -5,50 +5,43 @@
   <title>Title</title>
 
   <link rel="stylesheet" href="style.css">
-<!--  <link rel="preconnect" href="https://fonts.googleapis.com">-->
-<!--  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>-->
-<!--  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Rubik&display=swap" rel="stylesheet">-->
+
 </head>
 <body>
 
-<!------------------ Header----------------->
+<header class="header">
+  <div class="wrapper">
 
-<header class="page-header">
+    <div class="header-logo"><img src="image/device.svg" alt="Логотип интернет-магазина 'Девайс'"></div>
+    <div class="header-elements">
 
-  <div class="header-logo">
-    <a class="header-navigation-logo" href="index.html">
-       <img class="image/device.svg" alt="Логотип интернет-магазина «Девайс»" src="">
-    </a>
-  </div>
+      <div class="header-search"><h6>Поиск по сайту</h6></div>
 
-  <div class="header-elements">
-
-    <div class="header-search">Поиск</div>
-
-    <ul class="header-elements-item">
-      <li class="elements-signin"><a class="visually-hidden" href="#">Войти</a></li>
-      <li class="elements-comparer"><a class="visually-hidden" href="#">Сравнить</a></li>
-      <li class="elements-trash"><a class="visually-hidden" href="#">Корзина</a></li>
-    </ul>
-
+      <ul class="header-elements-item">
+        <li class="elements-signin"><a class="visually-hidden" href="#"><h6>Войти</h6></a></li>
+        <li class="elements-comparer"><a class="visually-hidden" href="#"><h6>Сравнить</h6></a></li>
+        <li class="elements-trash"><a class="visually-hidden" href="#"><h6>Корзина</h6></a></li>
+      </ul>
+    </div>
     <!--  Nav -->
 
     <nav class="navigation-elements">
-      <li class="navigation-catalog">Каталог товаров</li>
+      <nav class="navigation-catalog"><h2>Каталог товаров</h2></nav>
 
       <ul class="navigation-list navigation-user">
-        <li class="navigation-item"><a class="navigation-link" href="delivery.html">Доставка</a></li>
-        <li class="navigation-item"><a class="navigation-link" href="guarantee.html">Гарантия</a></li>
-        <li class="navigation-item"><a class="navigation-link" href="contacts.html">Контакты</a></li>
+        <li class="navigation-item"><a class="navigation-link" href="delivery.html"><h2>Доставка</h2></a></li>
+        <li class="navigation-item"><a class="navigation-link" href="guarantee.html"><h2>Гарантия</h2></a></li>
+        <li class="navigation-item"><a class="navigation-link" href="contacts.html"><h2>Контакты</h2></a></li>
       </ul>
     </nav>
-  </div>
 
+  </div>   <!----wrapper----->
 </header>
 
 <!--Main-->
 
 <main class="main-inner">
+  <div class="wrapper">
   <header class="inner-header">
     <h1 class="inner-header-title">Моноподы для селфи</h1>
     <ul class="breadcrumbs">
@@ -248,53 +241,63 @@
     <button class="button pagination-forward" type="button">вперед</button>
 
   </section>
+  </div>
 </main>
 
-
 <!------------------Footer--------------->
-<footer class="page-footer">
+<footer>
+  <div class="wrapper page-footer">
 
-  <section class="footer-contacts">
-    <h2 class="visually-hidden">Контакты</h2>
-    <img class="footer-contacts-logo" src="" alt="Логотип «Девайс»">
-    <address class="footer-contacts-address">
-      <p class="about-text">Санкт-Петербург, набережная реки Карповки, 5, литера П.</p>
-    </address>
-  </section>
+    <section class="footer-contacts">
+      <!--          <h2 class="visually-hidden">Контакты</h2>-->
+      <img class="footer-contacts-logo" src="image/device%20(1).svg" alt="Логотип «Девайс»">
+      <address class="footer-contacts-address">
+        <p class="about-text">Санкт-Петербург, набережная реки Карповки, 5, литера П.</p>
+      </address>
+    </section>
 
-  <section class="footer-social">
-    <ul class="footer-social-list">
-      <li class="footer-social-item">
-        <a class="button" href="#">
-          <span class="visually-hidden">Фейсбук</span>
-        </a>
-      </li>
-      <li class="footer-social-item">
-        <a class="button" href="#">
-          <span class="visually-hidden">Инстаграм</span>
-        </a>
-      </li>
-      <li class="footer-social-item">
-        <a class="button" href="#">
-          <span class="visually-hidden">Твиттер</span>
-        </a>
-      </li>
-    </ul>
-  </section>
+    <section class="footer-social-navigation">
 
-  <section class="footer-navigation">
-    <ul class="navigation-list navigation-user">
-      <li class="navigation-item"><a class="navigation-link" href="delivery.html">Доставка</a></li>
-      <li class="navigation-item"><a class="navigation-link" href="guarantee.html">Гарантия</a></li>
-      <li class="navigation-item"><a class="navigation-link" href="contacts.html">Контакты</a></li>
-    </ul>
-  </section>
+      <div class="footer-navigation">
+        <ul class="navigation-list navigation-user">
+          <li class="navigation-item"><a class="navigation-link" href="delivery.html">Доставка</a></li>
+          <li class="navigation-item"><a class="navigation-link" href="guarantee.html">Гарантия</a></li>
+          <li class="navigation-item"><a class="navigation-link" href="contacts.html">Контакты</a></li>
+        </ul>
+      </div>
 
-  <section class="footer-phone">
-    <a class="contacts-phone" href="tel:88005558628">8 800 555-86-28</a>
-    <p class="about-text">Сделано в <a class="htmlacademy-link" href="https://htmlacademy.ru/">.html academy</a></p>
-  </section>
+
+      <ul class="footer-social-list">
+        <li class="footer-social-item">
+          <a class="button" href="#">
+            <!--                <span class="visually-hidden">Фейсбук</span>-->
+            <img src="image/facebook.svg" alt="" width="40">
+          </a>
+        </li>
+        <li class="footer-social-item">
+          <a class="button" href="#">
+            <!--                <span class="visually-hidden">Инстаграм</span>-->
+            <img src="image/instagram.svg" alt="" width="40">
+          </a>
+        </li>
+        <li class="footer-social-item">
+          <a class="button" href="#">
+            <!--                <span class="visually-hidden">Твиттер</span>-->
+            <img src="image/twitter.svg" alt="" width="40">
+          </a>
+        </li>
+      </ul>
+
+
+    </section>
+
+    <section class="footer-phone">
+      <a class="contacts-phone" href="tel:88005558628">8 800 555-86-28</a>
+      <p class="about-text">Сделано в <a class="htmlacademy-link" href="https://htmlacademy.ru/">.html academy</a></p>
+    </section>
+  </div>
 </footer>
+
 
 
 
