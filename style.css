@@ -36,13 +36,37 @@
 /*  line-height: 30px;*/
 /*  background-color: #FBF7F4;*/
 /*}*/
+<<<<<<< HEAD
 
 body {
+=======
+html{
+  height: 100%;
+}
+
+
+body {
+  min-height: 100%;
+>>>>>>> f7788e9 (actual version)
   font-family: "PT Sans", sans-serif;
   padding: 0;
   margin: 0;
 }
 
+<<<<<<< HEAD
+=======
+/*.visually-hidden {*/
+/*  position: absolute;*/
+/*  width: 1px;*/
+/*  height: 1px;*/
+/*  margin: -1px;*/
+/*  padding: 0;*/
+/*  border: 0;*/
+/*  clip: rect(0 0 0 0);*/
+/*  overflow: hidden;*/
+/*}*/
+
+>>>>>>> f7788e9 (actual version)
 a{
   text-decoration: none;
   color: rgba(0, 0, 0, 1);
@@ -85,7 +109,11 @@ h4{
   font-family: 'Rubik', sans-serif;
   font-weight: 700;
   font-style: normal;
+<<<<<<< HEAD
   font-size: 24px;
+=======
+  font-size: 18px;
+>>>>>>> f7788e9 (actual version)
   line-height: 30px;
 }
 
@@ -111,17 +139,29 @@ p{
   line-height: 30px;
 }
 
+<<<<<<< HEAD
 .button{
 
 
 }
+=======
+/*.button{*/
+
+
+/*}*/
+>>>>>>> f7788e9 (actual version)
 
 
 
 
 .header {
+<<<<<<< HEAD
   padding: 40px 0;
   margin: 0 auto;
+=======
+  height: 300px;
+  margin: 40px auto 0;
+>>>>>>> f7788e9 (actual version)
   background: url("image/Background 1.png") center no-repeat;
   /*background-color: rgba(255, 225, 127, 1);*/
 }
@@ -140,37 +180,92 @@ p{
   max-width: 1160px;
   width: 100%;
 }
+<<<<<<< HEAD
 
 
+=======
+.container{
+  width: 100%;
+  max-width: 1041px;
+}
+
+.logo{
+ position: relative;
+  top: -23px;
+  left: 0;
+  z-index: 1;
+}
+>>>>>>> f7788e9 (actual version)
 
 .header-elements{
   font-size: 16px;
   display: flex;
   justify-content: space-between;
+<<<<<<< HEAD
   width: 100%;
   max-width: 1075px;
   margin: 26px auto 0;
 }
 
 .header-search{
+=======
+  align-items: center;
+  width: 100%;
+  max-width: 1075px;
+  margin: 0 auto;
+}
+
+.header-search{
+  display: flex;
+  align-items: center;
+>>>>>>> f7788e9 (actual version)
   width: 50%;
 }
 
 .header-elements-item{
+<<<<<<< HEAD
   display: flex;
   justify-content: space-between;
   width: 50%;
 }
+=======
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+}
+.elements-signin,
+.elements-comparer,
+.elements-trash{
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header-elements-item img, .header-search img{
+  margin-right: 10px;
+}
+
+/*navigation*/
+>>>>>>> f7788e9 (actual version)
 
 .navigation-elements{
   display: flex;
   justify-content: space-between;
+<<<<<<< HEAD
+=======
+  align-items: center;
+>>>>>>> f7788e9 (actual version)
   width: 100%;
   max-width: 1075px;
   margin: 0 auto;
   text-decoration: none;
   text-transform: uppercase;
+<<<<<<< HEAD
   font-size: 18px;
+=======
+  letter-spacing: 2px;
+>>>>>>> f7788e9 (actual version)
 }
 
 .navigation-catalog{
@@ -181,6 +276,14 @@ p{
   display: flex;
   justify-content: space-between;
   width: 50%;
+<<<<<<< HEAD
+=======
+  list-style-type: none;
+}
+
+.main-container{
+  flex-grow: 1;
+>>>>>>> f7788e9 (actual version)
 }
 
 .slider-inner{
@@ -346,3 +449,91 @@ footer, footer a{
 .about-text{
   margin-top: 35px;
 }
+<<<<<<< HEAD
+=======
+
+/*catalog*/
+
+.main-container{
+  margin-top: 37px;
+}
+
+/*breadcrumbs*/
+.breadcrumbs{
+  margin-top: 14px;
+  display: flex;
+  justify-content: flex-start;
+  list-style-type: none;
+}
+.breadcrumbs-item{
+  align-items: center;
+  margin-right: 35px;
+}
+
+
+
+.catalog-products{
+  display: flex;
+  justify-content: space-between;
+
+}
+
+/*catalog-filter*/
+
+.catalog-filter{
+  width: 30%;
+  background-color: rgba(240, 240, 240, 1);
+}
+
+.catalog-filter-group{
+  border-bottom: 3px solid rgba(0, 0, 0, 1);
+
+}
+
+.catalog-products-title{
+  height: 70px;
+  text-align: center;
+  background-color: rgba(220, 220, 220, 1);
+}
+
+/*catalog-sorting*/
+.catalog-sorting{
+  width: 70%;
+
+}
+
+/*sorting-type*/
+
+.sorting-type{
+  display: flex;
+  justify-content: space-between;
+}
+.sorting-control{
+  height: 70px;
+  background-color: rgba(240, 240, 240, 1);
+}
+.sorting-title{
+
+
+}
+
+/*product-list*/
+
+.product-list{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: 69px 0;
+  list-style-type: none;
+}
+
+.product-card{
+  width: 50%;
+  padding-bottom: 40px;
+  font-size: 14px;
+}
+.product-card-image{
+  width: 90%;
+
+}
+>>>>>>> f7788e9 (actual version)
