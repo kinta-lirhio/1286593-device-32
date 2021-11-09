@@ -3,14 +3,16 @@
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Девайс</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Rubik:wght@400;700;800&display=swap" rel="stylesheet">
+<!--    <link rel="preconnect" href="https://fonts.googleapis.com">-->
+<!--    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>-->
+<!--    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Rubik:wght@400;700;800&display=swap" rel="stylesheet">-->
     <link rel="stylesheet" href="style.css">
   </head>
 
+      <!-------------body-------------->
       <body>
-<!------------------ Header----------------->
+
+      <!-----header----->
 
       <header class="header">
 
@@ -22,12 +24,13 @@
             <div class="header-search"><h6>Поиск по сайту</h6></div>
 
             <ul class="header-elements-item">
-              <li class="elements-signin"><a class="visually-hidden" href="#"><h6>Войти</h6></a></li>
-              <li class="elements-comparer"><a class="visually-hidden" href="#"><h6>Сравнить</h6></a></li>
-              <li class="elements-trash"><a class="visually-hidden" href="#"><h6>Корзина</h6></a></li>
+              <li class="elements-signin"><a href="#"><h6>Войти</h6></a></li>
+              <li class="elements-comparer"><a href="#"><h6>Сравнить</h6></a></li>
+              <li class="elements-trash"><a href="#"><h6>Корзина</h6></a></li>
             </ul>
           </div>
-<!--  Nav -->
+
+         <!-----Nav----->
 
           <nav class="navigation-elements">
             <nav class="navigation-catalog"><h2>Каталог товаров</h2></nav>
@@ -43,19 +46,18 @@
 
       </header>
 
-
-<!------------- Main ---------------->
+     <!---------------main------------->
 
     <main class="main-container">
 
-<!-- Slaider -->
+    <!-----slaider----->
 
     <section class="slaider">
       <div class="wrapper container">
         <div class="slider-inner">
 
         <div class="slaider-image">
-<!--       <h1 class="visually-hidden">Квадрокоптер с лазером</h1>-->
+       <h1 class="visually-hidden">Квадрокоптер с лазером</h1>
            <img class="image" src="image/slider-1.png" alt="Квадрокоптер с лазером" width="450">
         </div>
 
@@ -65,10 +67,10 @@
             <a href="#"><h3>Подробнее</h3></a>
 
             <button class="slider-button slider-prev" type="button">
-<!--              <span class="visually-hidden">Предыдущее фото</span>-->
+              <span class="visually-hidden">Предыдущее фото</span>
             </button>
             <button class="slider-button slider-prev" type="button">
-<!--              <span class="visually-hidden">Следующее фото</span>></button>-->
+              <span class="visually-hidden">Следующее фото</span>></button>
 
             <ol class="slider-pagination">
               <li class="slider-pagination-item">
@@ -79,16 +81,19 @@
             </ol>
 
               <table class="table">
-              <tr>
-                <td><span>800м</span></td>
-                <td><span>50м</span></td>
-              </tr>
 
-              <tr>
-                <td><span>Дальность полета</span></td>
-                <td><span>Радиус поражения</span></td>
-              </tr>
-            </table>
+                <tr class="table-long">
+                   <td><span>800м</span></td>
+                   <td><span>50м</span></td>
+                </tr>
+
+                <tr class="table-small">
+                   <td><span>Дальность полета</span></td>
+                   <td><span>Радиус поражения</span></td>
+                </tr>
+
+              </table>
+
           </div>
 
           </div>
@@ -185,9 +190,7 @@
          <div class="wrapper">
              <div class="range-item">
 
-<!--            <h2 class="visually-hidden">Ассортимент</h2>-->
-
-<!--            <h2 class="visually-hidden">Ассортимент</h2>-->
+            <h2 class="visually-hidden">Ассортимент</h2>
 
                 <ul class="range-list">
 
@@ -233,27 +236,28 @@
       <section class="delivery">
         <div class="delivery-intro">
 
-<!--        <h2 class="visually-hidden">Доставка</h2>-->
-
-<!--        <h2 class="visually-hidden">Доставка</h2>-->
+        <h2 class="visually-hidden">Доставка</h2>
 
           <div class="wrapper delivery-block">
-        <ul class="delivery-list">
-          <li class="delivery-first"><button><h3>Доставка</h3></button></li>
-          <li class="delivery-first"><button><h3>Гарантия</h3></button></li>
-          <li class="delivery-first"><button><h3>Кредит</h3></button></li>
-        </ul>
-        <div class="delivery-info">
-          <h1>Доставка</h1>
-          <p>Мы с удовольствием доставим ваш товар прямо
-            к вашему подъезду совершенно бесплатно! Ведь
-            мы неплохо заработаем, поднимая его на ваш этаж.</p>
-        </div>
-            <div class="delivery-icon"><img src="image/delivery%202.svg" alt="" width="136"></div>
-        </div> <!--wrapper-->
-        </div>
 
+              <ul class="delivery-list">
+                 <li class="delivery-first"><button><h3>Доставка</h3></button></li>
+                 <li class="delivery-first"><button><h3>Гарантия</h3></button></li>
+                 <li class="delivery-first"><button><h3>Кредит</h3></button></li>
+              </ul>
 
+              <div class="delivery-info">
+              <h1>Доставка</h1>
+                  <p>Мы с удовольствием доставим ваш товар прямо
+                     к вашему подъезду совершенно бесплатно! Ведь
+                     мы неплохо заработаем, поднимая его на ваш этаж.</p>
+             </div>
+
+             <div class="delivery-icon"><img src="image/delivery%202.svg" alt="" width="136"></div>
+
+          </div> <!--wrapper-->
+
+        </div>
       </section>
 
 <!--------------decorative------------>
@@ -262,7 +266,7 @@
         <div class="">
           <div class="decorative-flex">
               <div class="decorative-img"><img src="image/delivery 1.png" height="100" alt=""></div>
-<!--        <h2 class="visually-hidden">О нас</h2>-->
+               <h2 class="visually-hidden">О нас</h2>
               <div class="section-title">Доставим редкий товар под заказ</div>
               <div class="section-block"><img src="image/info.png" width="40" alt=""></div>
           </div>
@@ -280,14 +284,14 @@
              <div class="info">
                 <div class="info-aboutus">
                    <h1>О нас</h1>
-                   <p><h6>Огромный выбор гаджетов не оставит равнодушным гика, который есть в каждом из нас.</h6></p>
-                   <p><h6>Мы можем доставить ваш товар в самые отдалённые уголки России транспортными компаниями:</h6></p>
+                   <h6>Огромный выбор гаджетов не оставит равнодушным гика, который есть в каждом из нас.</h6>
+                   <h6>Мы можем доставить ваш товар в самые отдалённые уголки России транспортными компаниями:</h6>
                 <ul>
                   <li><h6><b>Меловые линии</b></h6></li>
                    <li><h6><b>СДИК</b></h6></li>
                    <li><h6><b>ТоксБерри</b></h6></li>
                 </ul>
-                <button><h3>Подробнее о нас</h3></button>
+                <button>Подробнее о нас</button>
                 </div>
              </div>
 
@@ -309,7 +313,7 @@
              <h3 class="contact-subtitle">Время работы</h3>
                <ul class="contacts-schedule">
                  <li class="contacts-schedule-item">пн—пт: с 10:00 до 22:00</li>
-                 <li class="contacts-schedule-item"> сб—вс: с 10:00 до 19:00</li>
+                 <li class="contacts-schedule-item">сб—вс: с 10:00 до 22:00</li>
                </ul>
 
             <a class="button" href="#"><h3>Напишите нам</h3></a>
@@ -336,9 +340,9 @@
                <input class="field"  placeholder="email@example.com" type="email" name="newsletter-email" id="newsletter-email" required>
              </p>
              <button class="button newsletter-button" type="submit">
-                <span class="visually-hidden"><h3>Подписаться</h3></span>
+               <h3><span class="visually-hidden">Подписаться</span></h3>
              </button>
-            <p><h6>Это бесплатно</h6></p>
+            <h6>Это бесплатно</h6>
           </form>
 
         </div> <!--wrapper-->
@@ -350,9 +354,6 @@
         <div class="wrapper page-footer">
 
         <section class="footer-contacts">
-
-<!--          <h2 class="visually-hidden">Контакты</h2>-->
-
           <h2 class="visually-hidden">Контакты</h2>
 
           <img class="footer-contacts-logo" src="image/device%20(1).svg" width="145" height="36" alt="Логотип «Девайс»">
@@ -363,43 +364,31 @@
 
      <section class="footer-social-navigation">
 
-       <div class="footer-navigation">
-         <ul class="navigation-list navigation-user">
+
+         <ul class="footer-navigation">
            <li class="navigation-item"><a class="navigation-link" href="delivery.html">Доставка</a></li>
            <li class="navigation-item"><a class="navigation-link" href="guarantee.html">Гарантия</a></li>
            <li class="navigation-item"><a class="navigation-link" href="contacts.html">Контакты</a></li>
          </ul>
-       </div>
+
 
 
           <ul class="footer-social-list">
             <li class="footer-social-item">
               <a class="button" href="#">
-
-<!--                <span class="visually-hidden">Фейсбук</span>-->
-
                 <span class="visually-hidden">Фейсбук</span>
-
                 <img src="image/facebook.svg" alt="" width="40">
               </a>
             </li>
             <li class="footer-social-item">
               <a class="button" href="#">
-
-<!--                <span class="visually-hidden">Инстаграм</span>-->
-
                 <span class="visually-hidden">Инстаграм</span>
-
                 <img src="image/instagram.svg" alt="" width="40">
               </a>
             </li>
             <li class="footer-social-item">
               <a class="button" href="#">
-
-<!--                <span class="visually-hidden">Твиттер</span>-->
-
                 <span class="visually-hidden">Твиттер</span>
-
                 <img src="image/twitter.svg" alt="" width="40">
               </a>
             </li>
