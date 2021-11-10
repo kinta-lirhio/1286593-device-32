@@ -69,63 +69,79 @@
 
     <form class="catalog-filter" action="https://echo.htmlacademy.ru/" method="get">
 
-      <fieldset class="catalog-filter-group">
-        <legend class="catalog-filter-title">Стоимость</legend>
-        <button class="range-toggle toggle-min" type="button">
-          <span class="visually-hidden">Изменить минимальную цену.</span>
-        </button>
-        <button class="range-toggle toggle-min" type="button">
-          <span class="visually-hidden">Изменить максимальную цену.</span>
-        </button>
+<!--------------------------------------------->
+         <fieldset class="catalog-filter-group">
 
-        <label class="catalog-filter-label">
-          от 0<input class="catalog-filter-input" type="number" name="min-price">
-        </label>
+                 <legend class="catalog-filter-title">Стоимость</legend>
 
-        <label class="catalog-filter-label">
-          до 5000<input class="catalog-filter-input" type="number" name="max-price">
-        </label>
-      </fieldset>
+                 <label class="catalog-filter-label">
+                      от 0<input class="catalog-filter-input" type="number" name="min-price">
+                 </label>
+
+                 <label class="catalog-filter-label">
+                      до 5000<input class="catalog-filter-input" type="number" name="max-price">
+                 </label>
+
+                 <button class="range-toggle toggle-min" type="button">
+                        <span class="visually-hiddenn">Изменить минимальную цену.</span>   <!--------изменить класс на прежний----------->
+                 </button>
+
+                 <button class="range-toggle toggle-min" type="button">
+                        <span class="visually-hiddenn">Изменить максимальную цену.</span>    <!--------изменить класс на прежний----------->
+                  </button>
+
+          </fieldset>
+<!--------------------------------------------->
 
       <fieldset class="catalog-filter-group">
         <legend class="catalog-filter-title">Цвет</legend>
 
           <ul class="catalog-filter-list">
-            <li class="catalog-filter-item">
+
 <!--              -->
+            <li class="catalog-filter-item">
               <label class="control">
-                <input class="visually-hidden control-input" type="checkbox" name="color-black" checked>
+                <input class="visually-hiddenn control-input" type="checkbox" name="color-black" checked> <!--------изменить класс на прежний----------->
                 <span class="control-mark"></span>
                 <span class="control-label">Черный</span>
               </label>
+            </li>
 <!--              -->
+            <li class="catalog-filter-item">
               <label class="control">
-                <input class="visually-hidden control-input" type="checkbox" name="color-white" checked>
+                <input class="visually-hiddenn control-input" type="checkbox" name="color-white" checked> <!--------изменить класс на прежний----------->
                 <span class="control-mark"></span>
                 <span class="control-label">Белый</span>
               </label>
+            </li>
 <!--              -->
+            <li class="catalog-filter-item">
               <label class="control">
-                <input class="visually-hidden control-input" type="checkbox" name="color-dark-blue">
+                <input class="visually-hiddenn control-input" type="checkbox" name="color-dark-blue"> <!--------изменить класс на прежний----------->
                 <span class="control-mark"></span>
                 <span class="control-label">Синий</span>
               </label>
+            </li>
 <!--              -->
+            <li class="catalog-filter-item">
               <label class="control">
-                <input class="visually-hidden control-input" type="checkbox" name="color-red">
+                <input class="visually-hiddenn control-input" type="checkbox" name="color-red"> <!--------изменить класс на прежний----------->
                 <span class="control-mark"></span>
                 <span class="control-label">Красный</span>
               </label>
+            </li>
 <!--              -->
+            <li class="catalog-filter-item">
               <label class="control">
-                <input class="visually-hidden control-input" type="checkbox" name="color-pink">
+                <input class="visually-hiddenn control-input" type="checkbox" name="color-pink"> <!--------изменить класс на прежний----------->
                 <span class="control-mark"></span>
                 <span class="control-label">Розовый</span>
               </label>
-
             </li>
+
           </ul>
       </fieldset>
+
 <!--------------catalog-filter-------------->
       <fieldset class="catalog-filter-group">
         <legend class="catalog-filter-title">Bluetooth</legend>
@@ -133,7 +149,7 @@
         <ul class="catalog-filter-list">
           <li class="catalog-filter-item">
             <label class="control">
-              <input class="visually-hidden control-input" type="radio" name="product-group" value="we-have" checked>
+              <input class="visually-hiddenn control-input" type="radio" name="product-group" value="we-have" checked>
               <span class="control-mark"></span>
               <span class="control-label">Да</span>
             </label>
@@ -141,7 +157,7 @@
 <!--          -->
           <li class="catalog-filter-item">
             <label class="control">
-              <input class="visually-hidden control-input" type="radio" name="product-group" value="we-have-not">
+              <input class="visually-hiddenn control-input" type="radio" name="product-group" value="we-have-not">
               <span class="control-mark"></span>
               <span class="control-label">Нет</span>
             </label>
@@ -155,13 +171,13 @@
       </form>
     </div>
 <!-----------------sorting------------------->
-   <div class="catalog-sorting">
+      <div class="catalog-sorting">
 
-      <div class="sorting-control">
-         <form class="sorting-type">
+         <div class="sorting-control">
+           <form class="sorting-type">
               <h3 class="sorting-title">Сортировка:</h3>
 
-              <label class="visually-hidden" for="sorting">Сортировка</label>
+              <label class="visually-hiddenn" for="sorting">Сортировка</label>
 
               <select class="select-control" id="sorting" name="sorting">
                      <option value="popular">Сначала популярное</option>
@@ -169,8 +185,8 @@
                      <option value="expensive">Сначала дорогое</option>
               </select>
 
-             <button class="visually-hidden" type="submit">Отсортировать продукты</button>
-         </form>
+             <button class="visually-hiddenn" type="submit">Отсортировать продукты</button>
+           </form>
 
           <a href="#" class="button button-down"><span class="visually-hidden">Вниз</span></a>
           <a class="button" href="#"><span class="visually-hidden">Вверх</span></a>
@@ -222,95 +238,95 @@
 
 <!----------------product-list-------------------->
 
-<!--    <ul class="pagination">-->
-<!--      <li class="pagination-item">-->
-<!--        <a class="pagination-link pagination-prev pagination-disabled">-->
-<!--          <span class="visually-hidden">Предыдущая страница</span>-->
-<!--        </a>-->
-<!--      </li>-->
+    <ul class="pagination">
+      <li class="pagination-item">
+        <a class="pagination-link pagination-prev pagination-disabled">
+          <span class="visually-hidden">Предыдущая страница</span>
+        </a>
+      </li>
 
-<!--      <button class="button pagination-back" type="button">назад</button>-->
+      <button class="button pagination-back" type="button">назад</button>
 
-<!--      <li class="pagination-item">-->
-<!--        <a class="pagination-link pagination-current">1</a>-->
-<!--      </li>-->
-<!--      <li class="pagination-item">-->
-<!--        <a class="pagination-link" href="#">2</a>-->
-<!--      </li>-->
-<!--      <li class="pagination-item">-->
-<!--        <a class="pagination-link" href="#">3</a>-->
-<!--      </li>-->
-<!--      <li class="pagination-item">-->
-<!--        <a class="pagination-link" href="#">4</a>-->
-<!--      </li>-->
-<!--      <li class="pagination-item">-->
-<!--        <a class="pagination-link" href="#">5</a>-->
-<!--      </li>-->
-<!--      <li class="pagination-item">-->
-<!--        <a class="pagination-link pagination-next" href="#">-->
-<!--          <span class="visually-hidden">Следующая страница</span>-->
-<!--        </a>-->
-<!--      </li>-->
-<!--    </ul>-->
-<!--    <button class="button pagination-forward" type="button">вперед</button>-->
+      <li class="pagination-item">
+        <a class="pagination-link pagination-current">1</a>
+      </li>
+      <li class="pagination-item">
+        <a class="pagination-link" href="#">2</a>
+      </li>
+      <li class="pagination-item">
+        <a class="pagination-link" href="#">3</a>
+      </li>
+      <li class="pagination-item">
+        <a class="pagination-link" href="#">4</a>
+      </li>
+      <li class="pagination-item">
+        <a class="pagination-link" href="#">5</a>
+      </li>
+      <li class="pagination-item">
+        <a class="pagination-link pagination-next" href="#">
+          <span class="visually-hidden">Следующая страница</span>
+        </a>
+      </li>
+    </ul>
+    <button class="button pagination-forward" type="button">вперед</button>
      </div>
   </section>
   </div>
 </main>
 
-<!--&lt;!&ndash;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;Footer-&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;&ndash;&gt;-->
-<!--<footer>-->
-<!--  <div class="wrapper page-footer">-->
+<!------------------Footer--------------->
+<footer>
+  <div class="wrapper page-footer">
 
-<!--    <section class="footer-contacts">-->
-<!--                <h2 class="visually-hidden">Контакты</h2>-->
-<!--      <img class="footer-contacts-logo" src="image/device%20(1).svg" alt="Логотип «Девайс»">-->
-<!--      <address class="footer-contacts-address">-->
-<!--        <p class="about-text">Санкт-Петербург, набережная реки Карповки, 5, литера П.</p>-->
-<!--      </address>-->
-<!--    </section>-->
+    <section class="footer-contacts">
+                <h2 class="visually-hidden">Контакты</h2>
+      <img class="footer-contacts-logo" src="image/device%20(1).svg" alt="Логотип «Девайс»">
+      <address class="footer-contacts-address">
+        <p class="about-text">Санкт-Петербург, набережная реки Карповки, 5, литера П.</p>
+      </address>
+    </section>
 
-<!--    <section class="footer-social-navigation">-->
+    <section class="footer-social-navigation">
 
-<!--      <div class="footer-navigation">-->
-<!--        <ul class="navigation-list navigation-user">-->
-<!--          <li class="navigation-item"><a class="navigation-link" href="delivery.html">Доставка</a></li>-->
-<!--          <li class="navigation-item"><a class="navigation-link" href="guarantee.html">Гарантия</a></li>-->
-<!--          <li class="navigation-item"><a class="navigation-link" href="contacts.html">Контакты</a></li>-->
-<!--        </ul>-->
-<!--      </div>-->
-
-
-<!--      <ul class="footer-social-list">-->
-<!--        <li class="footer-social-item">-->
-<!--          <a class="button" href="#">-->
-<!--                            <span class="visually-hidden">Фейсбук</span>-->
-<!--            <img src="image/facebook.svg" alt="" width="40">-->
-<!--          </a>-->
-<!--        </li>-->
-<!--        <li class="footer-social-item">-->
-<!--          <a class="button" href="#">-->
-<!--                            <span class="visually-hidden">Инстаграм</span>-->
-<!--            <img src="image/instagram.svg" alt="" width="40">-->
-<!--          </a>-->
-<!--        </li>-->
-<!--        <li class="footer-social-item">-->
-<!--          <a class="button" href="#">-->
-<!--                            <span class="visually-hidden">Твиттер</span>-->
-<!--            <img src="image/twitter.svg" alt="" width="40">-->
-<!--          </a>-->
-<!--        </li>-->
-<!--      </ul>-->
+      <div class="footer-navigation">
+        <ul class="navigation-list navigation-user">
+          <li class="navigation-item"><a class="navigation-link" href="delivery.html">Доставка</a></li>
+          <li class="navigation-item"><a class="navigation-link" href="guarantee.html">Гарантия</a></li>
+          <li class="navigation-item"><a class="navigation-link" href="contacts.html">Контакты</a></li>
+        </ul>
+      </div>
 
 
-<!--    </section>-->
+      <ul class="footer-social-list">
+        <li class="footer-social-item">
+          <a class="button" href="#">
+                            <span class="visually-hidden">Фейсбук</span>
+            <img src="image/facebook.svg" alt="" width="40">
+          </a>
+        </li>
+        <li class="footer-social-item">
+          <a class="button" href="#">
+                            <span class="visually-hidden">Инстаграм</span>
+            <img src="image/instagram.svg" alt="" width="40">
+          </a>
+        </li>
+        <li class="footer-social-item">
+          <a class="button" href="#">
+                            <span class="visually-hidden">Твиттер</span>
+            <img src="image/twitter.svg" alt="" width="40">
+          </a>
+        </li>
+      </ul>
 
-<!--    <section class="footer-phone">-->
-<!--      <a class="contacts-phone" href="tel:88005558628">8 800 555-86-28</a>-->
-<!--      <p class="about-text">Сделано в <a class="htmlacademy-link" href="https://htmlacademy.ru/">.html academy</a></p>-->
-<!--    </section>-->
-<!--  </div>-->
-<!--</footer>-->
+
+    </section>
+
+    <section class="footer-phone">
+      <a class="contacts-phone" href="tel:88005558628">8 800 555-86-28</a>
+      <p class="about-text">Сделано в <a class="htmlacademy-link" href="https://htmlacademy.ru/">.html academy</a></p>
+    </section>
+  </div>
+</footer>
 
 
 

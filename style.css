@@ -581,7 +581,7 @@ footer, footer a{
   color: rgba(255, 255, 255, 1);
 }
 .contacts-phone{
- 
+
 }
 
 /************************************************/
@@ -595,56 +595,62 @@ footer, footer a{
 /*******breadcrumbs*********/
 
 .breadcrumbs{
-  margin-top: 14px;
-  display: flex;
-  justify-content: flex-start;
+  /*margin-top: 14px;*/
+  /*display: flex;*/
+  /*justify-content: flex-start;*/
   list-style-type: none;
 }
 
 .breadcrumbs-item{
-  align-items: center;
-  margin-right: 35px;
-}
+/*  align-items: center;*/
+/*  margin-right: 35px;*/
+/*}*/
 
 .catalog-products{
-  display: flex;
-  justify-content: space-between;
+  /*display: flex;*/
+  /*justify-content: space-between;*/
 
 }
+
 
 /*******catalog-filter****/
 
 .catalog-filter{
-  width: 30%;
-  background-color: rgba(240, 240, 240, 1);
+  /*width: 30%;*/
+  /*background-color: rgba(240, 240, 240, 1);*/
+}
+.catalog-filter-list{
+  list-style-type: none;
 }
 
+
+
 .catalog-filter-group{
-  border-bottom: 3px solid rgba(0, 0, 0, 1);
+  /*border-bottom: 3px solid rgba(0, 0, 0, 1);*/
 }
 
 .catalog-products-title{
-  height: 70px;
-  text-align: center;
-  background-color: rgba(220, 220, 220, 1);
+  /*height: 70px;*/
+  /*text-align: center;*/
+  /*background-color: rgba(220, 220, 220, 1);*/
 }
 
 /*******catalog-sorting*******/
 
 .catalog-sorting{
-  width: 70%;
+  /*width: 70%;*/
 }
 
 /********sorting-type*******/
 
 .sorting-type{
-  display: flex;
-  justify-content: space-between;
+  /*display: flex;*/
+  /*justify-content: space-between;*/
 }
 
 .sorting-control{
-  height: 70px;
-  background-color: rgba(240, 240, 240, 1);
+  /*height: 70px;*/
+  /*background-color: rgba(240, 240, 240, 1);*/
 }
 
 .sorting-title{
@@ -652,21 +658,21 @@ footer, footer a{
 
 /*******product-list*********/
 
-.product-list{
-  display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
-  margin: 69px 0;
-  list-style-type: none;
-}
+/*.product-list{*/
+/*  display: flex;*/
+/*  justify-content: space-around;*/
+/*  flex-wrap: wrap;*/
+/*  margin: 69px 0;*/
+/*  list-style-type: none;*/
+/*}*/
 
-.product-card{
-  width: 50%;
-  padding-bottom: 40px;
-  font-size: 14px;
-}
-.product-card-image{
-  width: 90%;
+/*.product-card{*/
+/*  width: 50%;*/
+/*  padding-bottom: 40px;*/
+/*  font-size: 14px;*/
+/*}*/
+/*.product-card-image{*/
+/*  width: 90%;*/
 
-}
+/*}*/
 
