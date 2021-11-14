@@ -152,6 +152,14 @@ ul{
 
 }
 
+.catalog-item:focus-within .subcatalog {
+  display: block;
+}
+
+.subcatalog{
+  display: none;
+}
+
 /*********header*******/
 
 .header {
@@ -512,6 +520,9 @@ ul{
   justify-content: space-between;
 }
 
+.field{
+  width: 300px;
+}
 /********footer*********/
 
 footer, footer a{
@@ -596,49 +607,52 @@ footer, footer a{
 
 .breadcrumbs{
   /*margin-top: 14px;*/
-  /*display: flex;*/
+  display: flex;
   /*justify-content: flex-start;*/
   list-style-type: none;
 }
-
-.breadcrumbs-item{
-/*  align-items: center;*/
-/*  margin-right: 35px;*/
-/*}*/
+.breadcrumbs-link{
+  margin-right: 36px;
+}
+.breadcrumbs-item {
+  /*  align-items: center;*/
+  /*  margin-right: 35px;*/
+  /*}*/
+}
 
 .catalog-products{
-  /*display: flex;*/
-  /*justify-content: space-between;*/
+  display: flex;
+  justify-content: space-between;
 
 }
 
 
 /*******catalog-filter****/
-
-.catalog-filter{
-  /*width: 30%;*/
-  /*background-color: rgba(240, 240, 240, 1);*/
+.sorting-container{
+  width: 25%;
+  display: flex;
+  flex-direction: column;
 }
-.catalog-filter-list{
-  list-style-type: none;
-}
+.sorting-control button{
+  width: 56px;
+  height: 44px;
+  background-color: darkgrey;
 
-
-
-.catalog-filter-group{
-  /*border-bottom: 3px solid rgba(0, 0, 0, 1);*/
 }
 
-.catalog-products-title{
-  /*height: 70px;*/
-  /*text-align: center;*/
-  /*background-color: rgba(220, 220, 220, 1);*/
+.sorting-control{
+
 }
 
+.sorting-type{
+  display: flex;
+  justify-content: space-between;
+
+}
 /*******catalog-sorting*******/
 
 .catalog-sorting{
-  /*width: 70%;*/
+  width: 70%;
 }
 
 /********sorting-type*******/
@@ -658,13 +672,38 @@ footer, footer a{
 
 /*******product-list*********/
 
-/*.product-list{*/
-/*  display: flex;*/
-/*  justify-content: space-around;*/
-/*  flex-wrap: wrap;*/
-/*  margin: 69px 0;*/
-/*  list-style-type: none;*/
-/*}*/
+.pagination-container{
+  display: flex;
+  background-color: rgba(235, 235, 235, 1);
+}
+
+.pagination{
+  display: flex;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.product-list{
+  list-style-type: none;
+}
+
+.pagination-item:not(:last-child) {
+  margin-right: 50px;
+}
+
+.pagination-link {
+  display: block;
+  box-sizing: border-box;
+  width: 50px;
+  height: 44px;
+  padding: 14px 20px;
+  line-height: 16px;
+  font-weight: 700;
+  color: rgba(179, 179, 179, 1);
+
+  text-decoration: none;
+}
 
 /*.product-card{*/
 /*  width: 50%;*/
