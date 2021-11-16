@@ -715,9 +715,6 @@ footer, footer a{
 }
 
 .product-card{
-  /*display: grid;*/
-  /*grid-template-rows: 380px auto 44px;*/
-  /*grid-template-columns: 16px 188px 16px;*/
   display: flex;
   flex-direction: column;
 }
