@@ -149,19 +149,19 @@ ul{
 }
 
 .button{
-  display: inline-block;
-  padding: 14px 20px;
-  font-family: inherit;
-  font-size: 16px;
-  line-height: 16px;
-  font-weight: 700;
-  text-align: center;
-  color: #FFFFFF;
-  background-color: #000000;
-  border: none;
-  text-decoration: none;
-  text-transform: uppercase;
-  cursor: pointer;
+  /*display: inline-block;*/
+  /*padding: 14px 20px;*/
+  /*font-family: inherit;*/
+  /*font-size: 16px;*/
+  /*line-height: 16px;*/
+  /*font-weight: 700;*/
+  /*text-align: center;*/
+  /*color: #FFFFFF;*/
+  /*background-color: #000000;*/
+  /*border: none;*/
+  /*text-decoration: none;*/
+  /*text-transform: uppercase;*/
+  /*cursor: pointer;*/
 }
 
 .catalog-item:focus-within .subcatalog {
